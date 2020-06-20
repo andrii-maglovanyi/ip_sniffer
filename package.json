@@ -1,0 +1,47 @@
+{
+  "name": "ip_sniffer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "files": [
+    "bin/",
+    "dist/"
+  ],
+  "bin": {
+    "ip_sniffer": "bin/index.js"
+  },
+  "keywords": [
+    "port",
+    "ports",
+    "range",
+    "sniff",
+    "sniffer",
+    "open",
+    "reachable",
+    "local",
+    "remote",
+    "host",
+    "ip",
+    "address",
+    "connect",
+    "socket",
+    "tcp"
+  ],
+  "author": "Andrii Maglovanyi <andrii.maglovanyi@gmail.com> (http://andrii.codes/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-typescript": "^7.10.1",
+    "@babel/register": "^7.10.1",
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {}
+}
